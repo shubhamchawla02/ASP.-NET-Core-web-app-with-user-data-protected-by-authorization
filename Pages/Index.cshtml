@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Contact Manager";
+}
+<html>
+<head></head>
+<style>
+body {
+  background-image: url('https://wallpaperaccess.com/full/1109099.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+<div class="text-center">
+    <h1 class="display-4" ><b>Welcome</b></h1>
+    <h1 style="font-family:Times New Roman,serif">ASP.NET Core web app with user data protected by authorization</h1>
+    <h2 style="text-align:left;font-family:Times New Roman">&nbsp;&nbsp;&nbsp;Web App Functionalities. There are three security groups:-</h2>
+    
+    <ul style="list-style-type:disc;text-align:left;font-size:20px;font-family:Times New Roman,serif">
+    
+         <li><b>Registered users</b> can view all the approved data and can edit/delete their own data. Privacy Page can only be accessed by Administrator and Manager.</li>
+         <p></p>
+         <li><b>Managers</b> can approve or reject contact data. Only approved contacts are visible to users.</li>
+         <p></p>
+         <li><b>Administrators</b> can approve/reject and edit/delete any data.</li>
+      </ul>
+</div>
+</html>

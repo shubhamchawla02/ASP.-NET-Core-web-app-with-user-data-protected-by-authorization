@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0739bbe-f89c-44ac-88a4-90f3b647ce6a": {
+      "ProjectGuid": "c0739bbe-f89c-44ac-88a4-90f3b647ce6a",
+      "DisplayName": "ContactManager",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
